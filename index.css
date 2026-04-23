@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* Prevents scrolling while using the 3D canvas */
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica;
+}
+
+canvas {
+  touch-action: none; /* Helps with mobile touch rotation */
+}
